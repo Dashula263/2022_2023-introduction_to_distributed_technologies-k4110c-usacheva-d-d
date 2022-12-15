@@ -4,7 +4,8 @@ Mainly CNI is a framework or a plugin that can dynamically configure networking 
 There're different types of plugins of CNI. For example, flannel, calico and others. 
 Calico, in its turn, provides a CNI plugin that can be used for integration with Kubernetes. Calico creates a flat layer-3 network and assigns a fully routable IP address to every pod.
 To install Calico you can use yaml file which creates calico-node daemonset (pod that runs on all the nodes of the K8s cluster). So it installs just like any other pod:
-kubectl apply -f <address to pod>/calico.yaml
+
+kubectl apply -f address_to _pod/calico.yaml
         
 	
 Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
