@@ -1,3 +1,4 @@
+<h1><b>Как работают CNI, типы CNI, особенности развертывания и эксплуатации.</b></h1>
 CNI or Container Network Interface. And, as it becomes clear from its name, CNI stands for connecting, adding and deleting disconnecting containers to networks.
 Mainly CNI is a framework or a plugin that can dynamically configure networking resources (network, IP-addresses, hosts). In other words, this plugin inserts a network interface into the container network namespace and make any necessary changes on the host.
 
@@ -7,7 +8,7 @@ To install Calico you can use yaml file which creates calico-node daemonset (pod
 
 kubectl apply -f address_to _pod/calico.yaml
         
-	
+<h1><b>Как работают CNI, типы CNI, особенности развертывания и эксплуатации.</b></h1>	
 Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
 It uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer to be divided into multiple virtual computers - virtual machines.
 Each VM runs its own operating system (OS) and behaves like an independent computer.
