@@ -8,7 +8,8 @@ To install Calico you can use yaml file which creates calico-node daemonset (pod
 
 kubectl apply -f address_to _pod/calico.yaml
         
-<h1><b>Как работают CNI, типы CNI, особенности развертывания и эксплуатации.</b></h1>	
+<h1><b>Что такое виртуализация? Какие виды бывают, чем виртуализация отличается от контейнеризации и отличается ли?
+</b></h1>	
 Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
 It uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer to be divided into multiple virtual computers - virtual machines.
 Each VM runs its own operating system (OS) and behaves like an independent computer.
