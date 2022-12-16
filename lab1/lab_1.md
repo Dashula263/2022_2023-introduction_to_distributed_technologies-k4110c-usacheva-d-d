@@ -33,8 +33,8 @@ Date of finished: 14.12.2022 <br><br>
 Манифест:<br><br>
  ![lab1](imgs/2022-12-14_21-07-06.png)<br><br>
  
-Далее устанавливаем kubectl по ссылке:<br><br>
- https://storage.googleapis.com/kubernetes-release/release/v1.26.0/bin/windows/amd64/kubectl.exe <br><br>
+Далее устанавливаем kubectl по <a href="https://storage.googleapis.com/kubernetes-release/release/v1.26.0/bin/windows/amd64/kubectl.exe">ССЫЛКЕ</a><br><br>
+
  
 Создаем локальный minikube кластер:<br><br>
  ![lab1](imgs/2022-12-14_22-32-32.png)<br><br>
@@ -46,7 +46,7 @@ Date of finished: 14.12.2022 <br><br>
  ![lab1](imgs/2022-12-15_01-56-23.png)<br><br>
  
 Далее входим, используя токен, найденный в логах:<br><br>
-minikube kubectl -- logs service/vault<br><br>
+*minikube kubectl -- logs service/vault<br><br>*
 ![lab1](imgs/2022-12-15_02-02-03.png)<br><br>
 ![lab1](imgs/2022-12-15_02-04-23.png)<br><br>
 
