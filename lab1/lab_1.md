@@ -12,7 +12,7 @@ Date of finished: 14.12.2022 <br><br>
 
 Для начала проверим, поддерживается ли виртуализация<br><br>
  ![lab1_1](imgs/2022-12-14_20-07-48.png)<br><br>
-<h3>Установка minikube</h3><br><br>
+<h3>Установка minikube</h3>
 
 Далее устанавливаем Hypervisor. В моем случае VirtualBox.<br><br>
  ![lab1_2](imgs/2022-12-14_20-19-22.png)<br><br>
