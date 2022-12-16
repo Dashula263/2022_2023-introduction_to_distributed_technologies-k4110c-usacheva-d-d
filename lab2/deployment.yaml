@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: dori
+  name: dori
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dori
+  template:
+    metadata:
+      labels:
+        app: dori
+    spec:
+      containers:
+      - image: ifilyaninitmo/itdt-contained-frontend:master
+        name: master
+        ports:
+        - containerPort: 3000
+          name: http
+        env:
+        - name: REACT_APP_USERNAME
+          value: Daria
+        - name: REACT_APP_COMPANY_NAME
+          value: Usacheva
