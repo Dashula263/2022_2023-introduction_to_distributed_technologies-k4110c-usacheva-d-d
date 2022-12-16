@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dori3-cm
+data:
+  REACT_APP_USERNAME: Daria
+  REACT_APP_COMPANY_NAME: Usacheva
